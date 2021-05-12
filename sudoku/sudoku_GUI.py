@@ -141,9 +141,6 @@ def start():
           
             self.draw_canvas()
 
-            print(self.nums_left_to_use)
-            print(self.solved)
-
 
 
 
@@ -525,9 +522,6 @@ def start():
                 self.nums_left_to_use.append(self.get_num_left_to_use(num))
             
             self.display_nums_left()
-
-            print(self.nums_left_to_use)
-            print(self.solved)
 
 
 
